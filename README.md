@@ -63,22 +63,27 @@ jobs:
         run: npm test
 ```
 
-## 🏗️ Installation
+## 📌 Versioning Strategy
+
+This repository follows Semantic Versioning (`vX.Y.Z`).
+
+- **Major Releases (`@v1`)**: Recommended for pipeline stability. Points to the latest backwards-compatible release in
+  the `v1.x.x` series.
+- **Specific Versions (`@v1.0.0`)**: Use when strict pinning is needed.
+
+### Creating a New Release
 
 ```bash
-# Example
-
+git tag -a v1.0.0 -m "Release v1.0.0"
+git tag -fa v1 -m "Update v1 major tag"
+git push origin --tags --force
 ```
 
-[//]: # (## 🚀 Using)
+## 🛠️ Contributing / Adding New Actions
 
-[//]: # ()
-[//]: # (Check out the [vbetsch/lib-config-ts-test]&#40;https://github.com/vbetsch/lib-config-ts-test&#41; repository for a live)
-
-[//]: # (integration example.)
-
-## 🤝 Contributing
-
-Contributions are welcome! To get started, please ensure you have an approved issue before submitting a PR.
+1. Create a new directory for the action: `mkdir my-new-action`.
+2. Add an `action.yml` inside `my-new-action/`.
+3. Document the new action in this `README.md`.
+4. Tag a new release or update existing release tags.
 
 [© 2026 vbetsch — MIT License](LICENSE)
