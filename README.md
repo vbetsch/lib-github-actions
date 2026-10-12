@@ -27,7 +27,7 @@ Sets up the Node.js environment using a specified version and restores or instal
 - Configures Node.js using `actions/setup-node`.
 - Caches `node_modules` based on `package-lock.json` hash.
 - Runs `npm ci` only if dependencies are missing or modified.
-- Dynamic Node.js version parameter with a default fallback.
+- Dynamic Node.js version parameter.
 
 #### Inputs
 
