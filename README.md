@@ -15,7 +15,7 @@ own scope and input arguments.
 │   └── action.yml      # Node.js environment setup & dependency caching
 ```
 
-## Available Actions
+## 🚀 Available Actions
 
 ### 1. Setup Project (`./node-setup-project`)
 
