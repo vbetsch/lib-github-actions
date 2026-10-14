@@ -17,9 +17,9 @@ own scope and input arguments.
 
 ### Actions
 
-| Action                                       | Description                                                                                                     | Parameters                                                     |
-|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [`node-setup-project`](./node-setup-project) | Sets up the Node.js environment using a specified version and restores or installs project dependencies cleanly | - _node-version_ : The version of Node.js to set up (required) |
+| Action                                       | Description                                                                                                     | Parameters                                                         |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [`node-setup-project`](./node-setup-project) | Sets up the Node.js environment using a specified version and restores or installs project dependencies cleanly | - **node-version** : The version of Node.js to set up (_required_) |
 
 ## 🚀 Using
 
