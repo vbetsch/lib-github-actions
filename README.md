@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-⚙️ A collection of reusable, composite GitHub Actions to standardize CI/CD workflows
+A collection of reusable, composite GitHub Actions to standardize CI/CD workflows
 
 ## 🧩 Structure
 
