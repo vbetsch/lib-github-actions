@@ -7,8 +7,7 @@ to standardize CI/CD workflows
 
 ## 🧩 Structure
 
-Actions are organized in dedicated subdirectories. <br>
-To keep workflows clean and maintainable, each action maintains its
+Actions are organized in dedicated subdirectories. To keep workflows clean and maintainable, each action maintains its
 own scope and input arguments.
 
 ### Actions
