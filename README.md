@@ -15,13 +15,13 @@ own scope and input arguments.
 │   └── action.yml      # Node.js environment setup & dependency caching
 ```
 
-### 🚀 Available Actions
+### Actions
 
 | Action                                       | Description                                                                                                     | Parameters                                                     |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | [`node-setup-project`](./node-setup-project) | Sets up the Node.js environment using a specified version and restores or installs project dependencies cleanly | - _node-version_ : The version of Node.js to set up (required) |
 
-## Usage Example
+## 🚀 Using
 
 In your target project's workflow file (`.github/workflows/ci.yml`):
 
@@ -52,15 +52,7 @@ jobs:
         run: npm test
 ```
 
-## 📌 Creating a New Release
-
-```bash
-git tag -a v1 -m "Release v1"
-git tag -fa v1 -m "Update v1 major tag"
-git push origin --tags --force
-```
-
-## 🛠️ Contributing / Adding New Actions
+## 🤝 Contributing
 
 1. Create a new directory for the action: `mkdir my-new-action`.
 2. Add an `action.yml` inside `my-new-action/`.
