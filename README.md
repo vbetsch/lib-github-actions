@@ -6,7 +6,8 @@
 
 ## 🧩 Structure
 
-Actions are organized in dedicated subdirectories. To keep workflows clean and maintainable, each action maintains its
+Actions are organized in dedicated subdirectories. <br>
+To keep workflows clean and maintainable, each action maintains its
 own scope and input arguments.
 
 ### Actions
@@ -17,9 +18,8 @@ own scope and input arguments.
 
 ## 🚀 Using
 
-In your target project's workflow file (`.github/workflows/ci.yml`):
-
-Example with `node-setup-project` action :
+For example if you want to use `node-setup-project` action, in your target project's workflow file you have to set it
+like this :
 
 ```yaml
 name: CI
