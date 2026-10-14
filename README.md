@@ -37,8 +37,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Project
-        # use the latest available version
+        # use the action with the latest available version
         uses: vbetsch/lib-github-actions/node-setup-project@v1
+        # set action parameters
         with:
           node-version: '24.21.0'
 
