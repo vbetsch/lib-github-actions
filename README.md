@@ -9,12 +9,6 @@
 Actions are organized in dedicated subdirectories. To keep workflows clean and maintainable, each action maintains its
 own scope and input arguments.
 
-```text
-.
-├── node-setup-project/
-│   └── action.yml      # Node.js environment setup & dependency caching
-```
-
 ### Actions
 
 | Action                                       | Description                                                                                                     | Parameters                                                         |
